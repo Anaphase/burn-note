@@ -1,0 +1,28 @@
+`<!DOCTYPE html>`
+
+html[lang='en']
+
+  head
+    title 'Burn Note'
+    meta[charset='utf-8']
+    meta[name='viewport'][content='width=device-width, initial-scale=1']
+    link[rel='stylesheet'][href='vendor/styles.css']
+    link[rel='stylesheet'][href='app/styles.css']
+
+  body
+    div.container
+      h1
+        a[href='/']
+          span.glyphicon.glyphicon-fire
+          'Burn Notes'
+
+      div#message-container.hide
+
+      div#form-container.hide
+        form
+          div.form-group
+            textarea.form-control[name='message']
+          button.btn.btn-primary.pull-right 'Save'
+
+    script[src='vendor/scripts.js']
+    script[src='app/scripts.js']

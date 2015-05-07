@@ -1,0 +1,29 @@
+$brand-color = lighten(orangered, 25%)
+
+h1, a
+  color $brand-color
+
+a:hover
+  text-decoration none
+  color darken($brand-color, 15%)
+
+.form-control
+  font-size 16px
+
+  &:focus
+    box-shadow none
+    border-color lighten($brand-color, 50%)
+
+.btn-primary
+  background-color $brand-color
+  border-color darken(@background-color, 5%)
+
+  &:hover
+    background-color lighten($brand-color, 10%)
+    border-color darken(@background-color, 5%)
+
+#message-container
+  text-align center
+
+  blockquote
+    text-align left

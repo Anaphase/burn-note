@@ -1,0 +1,12 @@
+{
+  "name": "burn-note",
+  "version": "0.0.1",
+  "authors": [
+    "Colin Wood <colinjameswood@gmail.com>"
+  ],
+  "description": "Self destructing notes.",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}
