@@ -33,4 +33,4 @@ app.post '/message', (request, response) ->
 
 apiError = (response, error) -> response.json('error': error)
 
-server = app.listen 8080, -> console.log 'Listening at http://%s:%s', server.address().address, server.address().port
+server = app.listen process.env.PORT or 8080, -> console.log 'Listening at http://%s:%s', server.address().address, server.address().port
