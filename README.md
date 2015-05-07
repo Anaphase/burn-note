@@ -8,7 +8,7 @@ Clone this repo and run these commands (make sure you have node, npm, bower, gru
 npm install && bower install && grunt && coffee ./backend.coffee
 ````
 
-Then visit http://localhost:8080/
+Then visit http://127.0.0.1:8080/
 
 ## Line Count
 Run this command to prove the app is less than 100 lines of code.
