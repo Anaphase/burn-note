@@ -14,7 +14,7 @@ html[lang='en']
       h1
         a[href='/']
           span.glyphicon.glyphicon-fire
-          'Burn Notes'
+          'Burn Note'
 
       div#message-container.hide
 
