@@ -4,6 +4,7 @@ h1, a
   color $brand-color
 
 a:hover
+  &:hover, &:focus
   text-decoration none
   color darken($brand-color, 15%)
 
@@ -19,8 +20,8 @@ a:hover
   border-color darken(@background-color, 5%)
 
   &:hover, &:focus
-    background-color lighten($brand-color, 10%)
     border-color darken(@background-color, 5%)
+    background-color lighten($brand-color, 10%)
 
 #message-container
   text-align center
