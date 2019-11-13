@@ -1,14 +1,14 @@
 # Burn Note
-Send self destructing notes! A proof-of-concept app written in 100 lines of code (excluding boilerplate stuff and vendor files.).
+Send self destructing notes! A proof-of-concept app written in 100 lines of code (excluding boilerplate stuff and vendor files.)
 
 ## Installation
-Clone this repo and run these commands (make sure you have node, npm, bower, grunt, coffee installed globally):
+Clone this repo and run this command:
 
 ```bash
-npm install && bower install && grunt && coffee ./backend.coffee
+npm install && npm start
 ````
 
-Then visit http://127.0.0.1:8080/
+Then visit http://localhost:8080/
 
 ## Line Count
 Run this command to prove the app is 100 lines of code.

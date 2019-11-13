@@ -1,1 +1,1 @@
-web: coffee backend.coffee
+web: npm start

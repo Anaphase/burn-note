@@ -1,14 +1,16 @@
 {
   "name": "burn-note",
   "engines": {
-    "node": "0.10.x"
+    "node": "10.16.x"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Anaphase/burn-note"
   },
   "scripts": {
-    "postinstall": "./node_modules/bower/bin/bower install && ./node_modules/grunt-cli/bin/grunt"
+    "start": "coffee backend.coffee",
+    "postinstall": "bower install && grunt",
+    "count-lines": "cat backend.coffee frontend/app/**/* | sed '/^\\s*$/d' | wc -l"
   },
   "dependencies": {
     "body-parser": "^1.12.3",
